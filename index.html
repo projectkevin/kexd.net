@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <title>kexd</title>
+    <!--js-->
+    <script src="js/clouds.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script>
+$(function(){
+
+  $("#typed").typed({
+    strings: ["coder", "gamer", "man", "programmer", "hacker", "marketer", "blogger", "graph junkie", "product fan", "startup guy", "engineer", "twitterer", "photographer", " genius", "iPhone user", "bag of hurt", "music lover"],
+    typeSpeed: 100,
+    backDelay: 500,
+    loop: true,
+    // defaults to false for infinite loop
+    loopCount: false,
+    callback: function(){ foo(); }
+  });
+
+  function foo(){ console.log("Callback"); }
+
+});
+</script>
+<style>
+  /* code for animated blinking cursor */
+  #typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+  }
+  @-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+</style>
+<!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="assets/css/main.css" rel="stylesheet">
+<link href="assets/css/social.css" rel="stylesheet">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/clouds.css" rel="stylesheet">
+
+<!-- Fonts from Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+
+</head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><b>KEXD.net</b></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="mailto:k@kexd.net">Get in touch</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="headerwrap">
+		<div class="container">
+      <div class="clouds">
+    <div class="cloud-1" data-speed="35000"></div>
+    <div class="cloud-2" data-speed="45000" data-delay="15000"></div>
+    <div class="cloud-3" data-speed="40000"></div>
+    <div class="cloud-4" data-speed="38000" data-delay="20000"></div>
+</div>
+			<div class="row">
+				<div class="col-lg-6">
+    <h1><script type="text/javascript">
+    var d = new Date();
+    var time = d.getHours();
+
+    if (time < 12)
+      {
+      document.write("Good morning!");
+      }
+    if ((time > 12)&&(time <17))
+      {
+      document.write("Good afternoon!");
+      }
+    if (time > 17)
+      {
+        document.write("Good evening!");
+      }
+    if (time == 12)
+      {
+      document.write("What are you doing?! It's lunch time!");
+      }
+    </script></h1>
+					<h1>Hi, I'm Kevin.<br/>
+					Some people describe me as a <span id="typed"></span>.</h1>
+				</div><!-- /col-lg-6 -->
+				<div class="col-lg-6">
+					<img class="img-responsive" src="assets/img/image.png" width="70%" alt="">
+				</div><!-- /col-lg-6 -->
+
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+
+
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h1>There are many ways<br/>to see my work/get in touch.</h1>
+				<h3>Over the years I've put a lot of stuff online. Writing, coding and everything else. Click below to get to that joyous content!</h3>
+			</div>
+		</div><!-- /row -->
+
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<!--<img src="assets/img/ser01.png" width="180" alt="">
+				<h4>1 - Browser Compatibility</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+			-->
+    <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline">
+	      <li> <a href="http://github.com/projectkevin"><i class="fa fa-github"></i></a></li>
+        <li> <a href="https://plus.google.com/u/0/+KevinDowling85/posts"><i class="fa fa-google-plus"></i></a></li>
+        <li> <a href="http://ie.linkedin.com/in/kevindowling/"><i class="fa fa-linkedin"></i></a></li>
+        <li> <a href="http://twitter.com/@kev_d"><i class="fa fa-twitter"></i></a></li>
+        <li> <a href="http://open.spotify.com/user/kevin.d"><i class="fa fa-spotify"></i></a></li>
+        <li> <a href="http://pixelattacks.com"><i class="fa fa-gamepad"></i></a></li>
+        <li> <a href="http://medium.com/@kev_d"><i class="fa fa-pencil"></i></a></li>
+  </ul>
+
+		</div><!-- /row -->
+	</div><!-- /container -->
+
+	<div class="container">
+		<p class="centered">&copy; 2014</p>
+	</div><!-- /container -->
+
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
