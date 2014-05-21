@@ -9,7 +9,7 @@ function moveClouds(e, s, d) {
     },d);
 }
 
-if(!Modernizr.cssanimations) {
+if(!Modernizr.cssanimations) {//console throws error here. Ignore!
     var clouds = [1,2,3,4];
 
     $.each(clouds, function() {
